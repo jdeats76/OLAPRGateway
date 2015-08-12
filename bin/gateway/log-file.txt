@@ -1,0 +1,54 @@
+2015-08-12 15:36:17,362 2625568 INFO  - Connection from 10.0.0.25  
+2015-08-12 15:36:17,392 2625598 INFO  - Received:select 2 thread, date from log ordr by date
+  
+2015-08-12 15:36:18,413 2626619 ERROR - Failed to fill datatable for query select 2 thread, date from log ordr by date
+  
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'by'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at OLAPRGateway.Program.SQLConnectAndExec(String sql)
+ClientConnectionId:ac0b8791-0867-44bc-a47b-d51f329c0a5d
+Error Number:156,State:1,Class:15
+2015-08-12 15:36:42,486 2650693 INFO  - Connection from 10.0.0.25  
+2015-08-12 15:36:42,487 2650694 INFO  - Received:select top 2 thread, date from log ordr by date
+  
+2015-08-12 15:36:42,803 2651009 ERROR - Failed to fill datatable for query select top 2 thread, date from log ordr by date
+  
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'by'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at OLAPRGateway.Program.SQLConnectAndExec(String sql)
+ClientConnectionId:c1d4881a-d333-43be-903b-64284a13b8e7
+Error Number:156,State:1,Class:15
+2015-08-12 15:37:11,740 2679947 INFO  - Connection from 10.0.0.25  
+2015-08-12 15:37:11,742 2679948 INFO  - Received:select top 2 thread, date from log order by date
+  
+2015-08-12 15:37:12,359 2680566 INFO  - thread <- c(85,85);date <- c("4/1/2014 12:05:23 AM","4/1/2014 12:05:23 AM");sqltemp <- data.frame(thread,date)
+  
+2015-08-12 15:39:01,218 2789424 INFO  - Connection from 10.0.0.25  
+2015-08-12 15:39:01,220 2789426 INFO  - Received:select top 2 thread,date from log order by date
+  
+2015-08-12 15:39:01,461 2789668 INFO  - thread <- c(85,85);date <- c("4/1/2014 12:05:23 AM","4/1/2014 12:05:23 AM");sqltemp <- data.frame(thread,date)
+  

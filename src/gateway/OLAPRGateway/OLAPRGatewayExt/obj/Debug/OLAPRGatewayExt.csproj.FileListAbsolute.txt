@@ -1,0 +1,10 @@
+c:\BI\OLAPRGateway\OLAPRGatewayExt\bin\Debug\OLAPRGatewayExt.dll
+c:\BI\OLAPRGateway\OLAPRGatewayExt\bin\Debug\OLAPRGatewayExt.pdb
+c:\BI\OLAPRGateway\OLAPRGatewayExt\obj\Debug\OLAPRGatewayExt.dll
+c:\BI\OLAPRGateway\OLAPRGatewayExt\obj\Debug\OLAPRGatewayExt.pdb
+c:\BI\OLAPRGateway\OLAPRGatewayExt\obj\Debug\OLAPRGatewayExt.csprojResolveAssemblyReference.cache
+C:\Rtools\Projects\OLAPRGateway\src\gateway\OLAPRGateway\OLAPRGatewayExt\bin\Debug\OLAPRGatewayExt.dll
+C:\Rtools\Projects\OLAPRGateway\src\gateway\OLAPRGateway\OLAPRGatewayExt\bin\Debug\OLAPRGatewayExt.pdb
+C:\Rtools\Projects\OLAPRGateway\src\gateway\OLAPRGateway\OLAPRGatewayExt\obj\Debug\OLAPRGatewayExt.csprojResolveAssemblyReference.cache
+C:\Rtools\Projects\OLAPRGateway\src\gateway\OLAPRGateway\OLAPRGatewayExt\obj\Debug\OLAPRGatewayExt.dll
+C:\Rtools\Projects\OLAPRGateway\src\gateway\OLAPRGateway\OLAPRGatewayExt\obj\Debug\OLAPRGatewayExt.pdb
